@@ -35,6 +35,9 @@ jobs:
       run: |
         git clone https://github.com/coolsnowwolf/lede openwrt
         cd openwrt
+        git clone https://github.com/ysc3839/openwrt-minieap.git package/minieap
+        git clone https://github.com/ysc3839/luci-proto-minieap.git package/luci-proto-minieap
+        git clone https://github.com/MeIsReallyBa/k2p-openwrt-mt7615_5.0.2.0 package/mtk
         ./scripts/feeds update -a
         ./scripts/feeds install -a
 
