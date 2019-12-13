@@ -15,3 +15,9 @@ Build OpenWrt using GitHub Actions
 - When the build is complete, click the `Artifacts` button in the upper right corner of the Actions page to download the binaries.
 
 [Read the details in my blog (in Chinese) | 中文教程](https://p3terx.com/archives/build-openwrt-with-github-actions.html)
+
+---
+## 本fork改动如下
+* 路由器型号：[K2P A1/A2](https://openwrt.org/toh/hwdata/phicomm/phicomm_k2p)
+* 添加闭源无线驱动：[仓库](https://github.com/MeIsReallyBa/k2p-openwrt-mt7615_5.0.2.0)
+* 添加锐捷认证软件包：[minieap](https://github.com/ysc3839/openwrt-minieap) [luci-proto-minieap](https://github.com/ysc3839/luci-proto-minieap)
